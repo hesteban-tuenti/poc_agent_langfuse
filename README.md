@@ -99,7 +99,7 @@ The test suite supports two modes via the `USE_MOCK` environment variable:
 # Live mode (default) - Uses real OpenAI and Langfuse API calls
 USE_MOCK=false python test_poc_agent_langfuse.py
 
-# Mock mode - Uses predefined responses, no API calls but mocked results from Langfuse are needed 
+# Mock mode - Uses predefined responses, no API calls but mocked LLM results are needed 
 USE_MOCK=true python test_poc_agent_langfuse.py
 ```
 
