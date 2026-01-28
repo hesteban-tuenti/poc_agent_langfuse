@@ -40,7 +40,7 @@ run_agent() [@observe - Top Level Trace]
 ### 1. Clone and Navigate to the Project
 
 ```bash
-cd <WORSAPCE>/agent-trace-langfuse
+cd <WORKSPACE>/agent-trace-langfuse
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
